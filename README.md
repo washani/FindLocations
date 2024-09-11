@@ -1,7 +1,7 @@
 
-# Setting Up and Running the React Native Project (Location Search with Auto-Filter)
+## Setting Up and Running the React Native Project (Location Search with Auto-Filter)
 
-# Getting Started
+## Getting Started
 
 >**Note**: Before cloning and running the project, make sure you have the following installed:.
             Node.js (Latest LTS version recommended)
@@ -10,7 +10,7 @@
             Xcode (for iOS, if running on Mac)
             Android Studio (for Android)
 
-## Step 1: Clone the Repository and Install Dependencies
+### Step 1: Clone the Repository and Install Dependencies
 
   This command will install all the packages listed in package.json, such as libraries for maps, location services, and UI components.
 
@@ -20,7 +20,7 @@ npm install
 
 ```
 
-## Step 2: Configure Environment (API Keys)
+### Step 2: Configure Environment (API Keys)
  you need to configure your API key. You can add the API keys in a .env file or directly in your code.
 
 ### For Android
@@ -39,4 +39,5 @@ npm run ios
 
 ```
 
-# FindLocations
+### Step 3: Testing Location Search with Auto-Filter
+Once the app is running, test the location search functionality by typing into the search bar. The auto-filtering should work in real-time, displaying relevant location suggestions based on user input.
