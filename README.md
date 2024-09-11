@@ -35,9 +35,13 @@ npm run android
 
 ```bash
 # using npm
+
 npm run ios
 
 ```
 
 ### Step 3: Testing Location Search with Auto-Filter
 Once the app is running, test the location search functionality by typing into the search bar. The auto-filtering should work in real-time, displaying relevant location suggestions based on user input.
+
+
+<img width="258" alt="Screenshot 2024-09-11 at 22 35 09" src="https://github.com/user-attachments/assets/5c7d661b-4066-4a82-9e85-066efa400089">
