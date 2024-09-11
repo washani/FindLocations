@@ -21,6 +21,12 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/.xcode.env.local
+ios/Pods/
+ios/build/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
 
 # Android/IntelliJ
 #
@@ -33,6 +39,10 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
+.gradle/
+/local.properties
+/app/build/
+*/build/
 
 # node.js
 #
@@ -72,3 +82,10 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# API keys and Environment Variables
+.env
+.env.local
+.env.production
+.env.*.local

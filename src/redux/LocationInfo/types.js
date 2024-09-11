@@ -1,0 +1,3 @@
+const SAVE_SEARCH = "SAVE_SEARCH";
+
+export { SAVE_SEARCH};

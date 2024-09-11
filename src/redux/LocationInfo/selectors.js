@@ -1,0 +1,1 @@
+export const searchResultsInfo = state => state.locationReducer.resultData;
